@@ -16,7 +16,7 @@ Este é o mesmo funcionanto que existe no macOS e Windows quando você selciona 
 
 # Instalação
 
-Isso só foi testado no Ubuntu 19.04 com Gnome, mas acredito deve funcionar em outras distros/DEs também.
+Isso só foi testado no Ubuntu 19.04 com Gnome.
 
 1. Configure o layout do teclado como `us-intl` - "English (US, intl., with dead keys)" 
 2. Instale o pactote `uim`. Isso é necessário para que o XCompose possa expandir para mais de um carácter (`'t`, por exemplo). No Ubuntu/Debian, faça:
@@ -43,7 +43,15 @@ curl -o ~/.XCompose https://raw.githubusercontent.com/lucasfais/xcompose-pt-BR_U
 
 5. Reinicie 
 
+# Problemas conhecidos
+
+Qundo digitar `"` + espaço, tome o cuidado de não continuar segurando o Shift enquanto pressina o espaço. O `uim` vem configurado para mudar o método de input quando Shift + espaço é pressionado. Infelizmente, não é possível alterar isso por causa de um bug: https://bugs.launchpad.net/ubuntu/+source/uim/+bug/1202038
+
+Caso pressionar Shift + espaço acidentamente, pressione novamente para voltar ao modo normal.
+
 
 # Fontes
+
+https://wiki.debian.org/XCompose
 
 https://unix.stackexchange.com/questions/220510/insert-both-characters-if-a-dead-key-combination-is-not-recognized-e-g-a-%E2%86%92-%C3%A1
