@@ -2,8 +2,8 @@
 
 Se você usa um teclado padrão americano no Linux e digita em português brasileiro e inglês, provalmente já encontrou os seguintes problemas:
 
-1. `'` + `c` vira um `` se você usa Inglês como idioma padrão do sistema
-2. Quando digita `'` + uma letra que não aceita acento em português, como um `t`, nenhum carácter é inserido - ou pior, em algums casos, como da letra `n`, a letra fica acentuada: `n`. Este tipo de comportamento é muito ruim quando se está digitando em inglês: `doesn't`, por exemplo.
+1. `'` + `c` vira um `ć` se você usa Inglês como idioma padrão do sistema
+2. Quando digita `'` + uma letra que não aceita acento em português, como um `t`, nenhum carácter é inserido - ou pior, em algums casos, como da letra `n`, a letra fica acentuada: `ń`. Este tipo de comportamento é muito ruim quando se está digitando em inglês: `doesn't`, por exemplo.
 
 Infelizmente, até onde eu pude investigar, parece não ser possível simplemente criar um novo layout do tipo "pt-BR - US", que seria uma solução mais elegante. É preciso utilizar configurações customizadas do `XCompose` com `uim`.
 
