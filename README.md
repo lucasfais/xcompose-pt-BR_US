@@ -1,3 +1,5 @@
+:warning: **Infelizmente, os "problemas conhecidos" podem inviabilizar essa solução para maioria das pessoas.**
+
 # Introdução
 
 Se você usa um teclado padrão americano no Linux e digita em português brasileiro e inglês, provalmente já encontrou os seguintes problemas:
@@ -47,7 +49,7 @@ curl -o ~/.XCompose https://raw.githubusercontent.com/lucasfais/xcompose-pt-BR_U
 
 1. Quando digitar `"` + espaço, tome o cuidado de não continuar segurando o Shift enquanto pressiona o espaço. O `uim` vem configurado para mudar o método de input quando Shift + espaço é pressionado. Infelizmente, não é possível alterar isso por causa de um bug: https://bugs.launchpad.net/ubuntu/+source/uim/+bug/1202038
 
-Caso pressionar Shift + espaço acidentamente, pressione novamente para voltar ao modo normal.
+    Caso pressionar Shift + espaço acidentamente, pressione novamente para voltar ao modo normal.
 
 2. Não funciona no Slack. Provalmente porque Slack não é GTK nem QT.
 
