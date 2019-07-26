@@ -16,7 +16,7 @@ Este é o mesmo comportamento que existe no macOS e Windows 10 quando você sele
 
 # Instalação
 
-*Isso só foi testado no Ubuntu 19.04 com Gnome*
+**Isso só foi testado no Ubuntu 19.04 com Gnome**
 
 1. Configure o layout do teclado como `us-intl` - "English (US, intl., with dead keys)" 
 2. Instale o pactote `uim`. Isso é necessário para que o XCompose possa expandir para mais de um carácter (`'t`, por exemplo). No Ubuntu/Debian, faça:
